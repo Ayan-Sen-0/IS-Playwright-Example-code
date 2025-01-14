@@ -10,7 +10,7 @@ test.describe("Login test cases", () => {
     LoginPage = new loginPage(page)
   })
 
-  test("Bad User Login", async({page}) => {
+  test("Login with bad username", async({page}) => {
     // visit the login page
     await page.goto('/')
     // perform the login
